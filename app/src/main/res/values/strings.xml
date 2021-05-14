@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">WMBeautyStudio</string>
+    <string name="ladiesservices">Ladies Services</string>
+    <string name="gentsservices">Gents Services</string>
+    <string name="hair_coloring">Hair Coloring</string>
+    <string name="hair_cutting">Hair Cutting</string>
+    <string name="hair_style">Hair Style</string>
+    <string name="manicure">Manicure</string>
+    <string name="hair_dryer">Hair Dryer</string>
+    <string name="wax">Wax</string>
+    <string name="threading">Threading</string>
+    <string name="hair_cut">Hair Cut</string>
+    <string name="hair_wash">Hair Wash</string>
+    <string name="hair_styling">Hair Styling</string>
+    <string name="beard">Beard</string>
+    <string name="facial">Facial</string>
+    <string name="hair_color">Hair Color</string>
+    <string name="massage">Massage</string>
+    <string name="pedicure">Pedicure</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="let_s_not_wait_for_the_perfect_look">Let\'s not wait for the perfect Look</string>
+    <string name="home">home</string>
+    <string name="profile">Profile</string>
+    <string name="client_reg">Client Registration</string>
+    <string name="client_name">UserName</string>
+    <string name="email">Email</string>
+    <string name="PhoneNo">PhoneNo</string>
+    <string name="Password">Password</string>
+    <string name="reg">Registration</string>
+    <string name="already_have_an_account_log_in">Already have an Account? Log In</string>
+    <string name="client_log_in">Client Log In</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="or">or</string>
+    <string name="not_registered">Not registered? Create an account</string>
+    <string name="appointment">Appointment</string>
+    <string name="select_your_professional">Select your professional</string>
+    <string name="select_a_date">Select a date</string>
+    <string name="select_a_time">Select a time</string>
+    <string name="select_salon">Select Salon</string>
+    <string name="let_s_not_wait_for_the_perfect_look_nbook_an_appointment_now">Let\'s not wait for the Perfect Look\nBook An Appointment Now!</string>
+    <string name="add_appointment">Add appointment</string>
+    <string name="services">Services</string>
+    <string name="select_barbershop">Select Barbershop</string>
+    <string name="salons_registration">Salon Registration</string>
+    <string name="salonname">SalonName</string>
+    <string name="welcome">Welcome!</string>
+    <string name="salons_log_in">Salons Log In</string>
+    <string name="contact_us">Contact us</string>
+    <string name="question_need_help">Question? Need help?</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="your_message">Your message</string>
+    <string name="send">Send</string>
+
+
+</resources>

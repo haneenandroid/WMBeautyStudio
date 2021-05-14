@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "131936960543",
+    "firebase_url": "https://salonapp-87c3b-default-rtdb.firebaseio.com",
+    "project_id": "salonapp-87c3b",
+    "storage_bucket": "salonapp-87c3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131936960543:android:911d02ee30e30aae1c552a",
+        "android_client_info": {
+          "package_name": "com.example.wmbeautystudio.Booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131936960543-brqaod7f7o2ta1eallqqvs0b8ik5n268.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXhbT9GsyJ8z5zmJAaIb22x6LjCFRkPXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131936960543-brqaod7f7o2ta1eallqqvs0b8ik5n268.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

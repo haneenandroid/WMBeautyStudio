@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wmbeautystudio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Profile.SalonProfile" />
+        <activity android:name=".Profile.ClientProfile" />
+        <activity android:name=".SignUp.ClientSignUp" />
+        <activity android:name=".Booking.LadiesServices" />
+        <activity android:name=".Booking.GentsServices" />
+        <activity android:name=".Booking.LadiesAppointment" />
+        <activity android:name=".SignUp.SalonSignUp" />
+        <activity android:name=".Login.SalonLogin" />
+        <activity android:name=".Login.ClientLogin" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Booking.GentsAppointment"/>
+        <activity android:name=".ContactUs2">
+
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

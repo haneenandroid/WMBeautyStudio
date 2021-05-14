@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking.LadiesServices"
+    tools:openDrawer="start"
+    android:id="@+id/drawer_layout">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="335dp"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:layout_gravity="start"
+        android:theme="@style/Theme.WMBeautyStudio"
+        app:headerLayout="@layout/menu_header"
+        app:menu="@menu/main_menu"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ladiesbackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/ladiesbackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="casual"
+                    android:padding="10dp"
+                    android:text="@string/ladiesservices"
+                    android:textAllCaps="true"
+                    android:textColor="@color/background"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/menu_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="73dp"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_baseline_menu_24" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/hairdryer">
+
+                    <Button
+                        android:layout_width="170dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="-7dp"
+                        android:backgroundTint="@color/background"
+                        android:padding="20dp"
+                        android:text="@string/hair_dryer"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/haircut">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/hair_cutting"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/stylehair">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/hair_style"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/hairdryer">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/hair_dryer"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/color">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/hair_coloring"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/manicure">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/manicure"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/pedicure">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/pedicure"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/wax2">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/wax"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/threading">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/threading"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/facial">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/facial"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/massage">
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-7dp"
+                    android:backgroundTint="@color/background"
+                    android:padding="20dp"
+                    android:text="@string/massage"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
